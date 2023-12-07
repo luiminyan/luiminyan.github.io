@@ -11,7 +11,7 @@
 
 body {
     height: 100vh;
-    background: #212529;
+    background: #F0FFF0;
 }
 
 .navbar {
@@ -25,7 +25,7 @@ body {
 }
 
 .navbar h2 {
-    color: #ffb742;
+    color: #70FF70;
     font-weight: 600;
 }
 
@@ -42,7 +42,7 @@ body {
 .navbar ul li a {
     /* remove underline of the links */
     text-decoration: none;
-    color: #fff;
+    color: #444844;
     font-size: 16px;
     margin-right: 25px;
     /* color transition */
@@ -51,7 +51,7 @@ body {
 
 .navbar ul li:hover a {
     /* together with the transition above, when hover lands on the link, link font color is changed */
-    color: #ffb742;
+    color: #70FF70;
 }
 
 .navbar ul li:last-child a {
@@ -59,7 +59,8 @@ body {
 }
 
 .hire-btn {
-    background-color: #ffb742;
+    background-color: #B0FFB0;
+    color: #444844;
     padding: 6px 30px;
     border: none;
     font-size: 16px;
@@ -69,6 +70,165 @@ body {
 }
 
 .hire-btn:hover {
-    color: #fb8c00;
+    color:#F0FFF0;
 }
 
+.main {
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h4 {
+    font-size: 32px;
+    color: #444844;
+    font-weight: 600;
+}
+
+.main h4 span {
+    color: #70FF70;
+    text-decoration: underline;
+}
+
+.main p.title{
+    font-size: 44px;
+    font-weight: 600;
+    color: #444844;
+    margin-top: 8px;
+}
+
+.main p.subtitle {
+    font-size: 16px;
+    color: #70FF70;
+    margin-top: 20px;
+}
+
+.main img {
+    width: 200px;
+    height: 200px;
+}
+
+/* .guarantee{
+    margin-top: 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 36px;
+}
+
+.guarantee .item {
+    background: #292b2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.guarantee.item:hover {
+    border-color: #ffb742;
+}
+
+.guarantee .item .icon {
+    width: 46px;
+    height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+} */
+
+.seprator {
+    margin: 50px 50px 30px;
+    padding: 10px 20px;
+    background-color: rgba(176, 255, 176, 0.8);
+    display: inline-block;
+    color: #444844;
+    border-radius: 12px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+}
+
+.about img{
+    width: 280px;
+}
+
+.about .info h3{
+    color: #444844;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about.info p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.about .info button {
+    margin-top: 30px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.skills .left {
+    width: 680px;
+}
+
+.skills .left .info h3 {
+    color: #444844;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills .left .info p {
+    color: #444844;
+    font-size: 14px;
+}
+
+.skills .left button {
+    margin-top: 30px;
+}
+
+.skills .right {
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills .right .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B0FFB0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.skills .right .item i {
+    font-size: 36px;
+    color: #444844;
+}
