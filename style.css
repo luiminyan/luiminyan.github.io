@@ -1,0 +1,74 @@
+/* import font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Poppins imported by the url */
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #212529;
+}
+
+.navbar {
+    display: flex;
+    /* align-items: cross axis */
+    align-items: center;
+    /* justify-content: main axis */
+    justify-content: space-around;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.navbar h2 {
+    color: #ffb742;
+    font-weight: 600;
+}
+
+.navbar ul {
+    /* make ul items of navbar in flexbox */
+    display: flex;
+}
+
+.navbar ul li {
+    /* remove the dot before li */
+    list-style: none;
+}
+
+.navbar ul li a {
+    /* remove underline of the links */
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+    /* color transition */
+    transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a {
+    /* together with the transition above, when hover lands on the link, link font color is changed */
+    color: #ffb742;
+}
+
+.navbar ul li:last-child a {
+    margin: 0;
+}
+
+.hire-btn {
+    background-color: #ffb742;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover {
+    color: #fb8c00;
+}
+
