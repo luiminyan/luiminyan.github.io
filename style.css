@@ -79,7 +79,7 @@ nav ul li:last-child a {
     margin: 0;
 }
 
-.hire-btn, #send-contact-btn {
+.my-btn {
     background-color: #abdbaf;
     color: #444844;
     padding: 6px 30px;
@@ -91,7 +91,7 @@ nav ul li:last-child a {
     transition: background-color 0.3s ease;
 }
 
-.hire-btn:hover, #send-contact-btn:hover {
+.my-btn:hover {
     /* change button color when hover transition is set */
     color:#ceead0;
 }
@@ -158,6 +158,26 @@ main img {
 }
 
 #about .info button {
+    margin-top: 30px;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#projects .right {
+    width: 680px;
+}
+
+#projects .right .info h3 {
+    color: #444844;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#projects .right button {
     margin-top: 30px;
 }
 
