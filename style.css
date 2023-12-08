@@ -14,6 +14,27 @@ body {
     background: #F0FFF0;
 }
 
+/* style for the back to top btn */
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 100;
+    border: none;
+    outline: none;
+    background-color: #B0FFB0;
+    color: #F0FFF0;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  #back-to-top-btn:hover {
+    background-color: #70FF70;
+  }
+
+
 .navbar {
     display: flex;
     /* align-items: cross axis */
@@ -64,12 +85,14 @@ body {
     padding: 6px 30px;
     border: none;
     font-size: 16px;
+    /* change cursor shape to pointer when above the button */
     cursor: pointer;
     border-radius: 6px;
     transition: background-color 0.3s ease;
 }
 
 .hire-btn:hover {
+    /* change button color when hover transition is set */
     color:#F0FFF0;
 }
 
@@ -109,43 +132,6 @@ body {
     width: 200px;
     height: 200px;
 }
-
-/* .guarantee{
-    margin-top: 50px;
-    padding: 0 50px;
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 36px;
-}
-
-.guarantee .item {
-    background: #292b2e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    width: 100%;
-    border-radius: 10px;
-    padding: 0 30px;
-    border: 1px solid transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.guarantee.item:hover {
-    border-color: #ffb742;
-}
-
-.guarantee .item .icon {
-    width: 46px;
-    height: 46px;
-    background: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease;
-} */
 
 .seprator {
     margin: 50px 50px 30px;
@@ -232,3 +218,95 @@ body {
     font-size: 36px;
     color: #444844;
 }
+
+
+  footer {
+    position: relative;
+    background: #444844;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+  }
+
+  footer .start {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: #B0FFB0;
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    /* make the start div above the footer div */
+    top: -16px;
+    left: 10%;
+  }
+
+  footer .start p {
+    font-size: 13px;
+    width: 35%;
+  }
+
+  footer .start button {
+    background: transparent;
+    border: 2px solid #444844;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+  }
+
+  footer .start button:hover {
+    border-color: #F0FFF0;
+  }
+
+  footer .cols{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  footer .cols .about-col {
+    flex: auto;
+  }
+
+  footer .cols .about-col h3 {
+    color: #B0FFB0;
+    margin-bottom: 20px;
+  }
+
+  footer .cols .about-col p {
+    color: #F0FFF0;
+    font-size: 13px;
+  }
+
+  footer .cols .links-col {
+    flex: auto;
+  }
+
+  footer .cols .links-col h4, footer .cols .news-col h4 {
+    color: #F0FFF0;
+    margin-bottom: 20px;
+  }
+
+  footer .cols .links-col a {
+    display: block;
+    text-decoration: none;
+    color: #F0FFF0;
+    font-size: 13px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+  }
+
+  footer .cols .links-col a:hover {
+    color: #B0FFB0;
+  }
+
+  footer .cols .news-col {
+    flex: auto;
+  }
+
+  footer .cols .news-col form button i{
+    font-size: 26px;
+  }
+
+
