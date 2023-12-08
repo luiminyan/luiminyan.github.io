@@ -30,12 +30,12 @@ body {
     border-radius: 10px;
   }
   
-  #back-to-top-btn:hover {
+#back-to-top-btn:hover {
     background-color: #48ab51;
-  }
+}
 
 
-.navbar {
+nav {
     display: flex;
     /* align-items: cross axis */
     align-items: center;
@@ -45,22 +45,22 @@ body {
     padding: 0 50px;
 }
 
-.navbar h2 {
+nav h2 {
     color: #48ab51;
     font-weight: 600;
 }
 
-.navbar ul {
+nav ul {
     /* make ul items of navbar in flexbox */
     display: flex;
 }
 
-.navbar ul li {
+nav ul li {
     /* remove the dot before li */
     list-style: none;
 }
 
-.navbar ul li a {
+nav ul li a {
     /* remove underline of the links */
     text-decoration: none;
     color: #444844;
@@ -70,12 +70,12 @@ body {
     transition: color 0.3s ease;
 }
 
-.navbar ul li:hover a {
+nav ul li:hover a {
     /* together with the transition above, when hover lands on the link, link font color is changed */
     color: #48ab51;
 }
 
-.navbar ul li:last-child a {
+nav ul li:last-child a {
     margin: 0;
 }
 
@@ -96,7 +96,7 @@ body {
     color:#ceead0;
 }
 
-.main {
+main {
     height: 640px;
     display: flex;
     flex-direction: column;
@@ -104,36 +104,36 @@ body {
     justify-content: center;
 }
 
-.main h4 {
+main h4 {
     font-size: 32px;
     color: #444844;
     font-weight: 600;
 }
 
-.main h4 span {
+main h4 span {
     color: #48ab51;
     text-decoration: underline;
 }
 
-.main p.title{
+main p.title{
     font-size: 44px;
     font-weight: 600;
     color: #444844;
     margin-top: 8px;
 }
 
-.main p.subtitle {
+main p.subtitle {
     font-size: 16px;
     color: #48ab51;
     margin-top: 20px;
 }
 
-.main img {
+main img {
     width: 200px;
     height: 200px;
 }
 
-.about {
+#about {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,52 +141,52 @@ body {
     padding: 0 90px;
 }
 
-.about img{
+#about img{
     width: 280px;
 }
 
-.about .info h3{
+#about .info h3{
     color: #444844;
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.about.info p {
+#about.info p {
     color: #ccc;
     font-size: 14px;
 }
 
-.about .info button {
+#about .info button {
     margin-top: 30px;
 }
 
-.skills {
+#skills {
     display: flex;
     justify-content: space-around;
     padding: 50px;
 }
 
-.skills .left {
+#skills .left {
     width: 680px;
 }
 
-.skills .left .info h3 {
+#skills .left .info h3 {
     color: #444844;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.skills .left .info p {
+#skills .left .info p {
     color: #444844;
     font-size: 14px;
 }
 
-.skills .left button {
+#skills .left button {
     margin-top: 30px;
 }
 
-.skills .right {
+#skills .right {
     width: 420px;
     height: 120px;
     display: flex;
@@ -196,7 +196,7 @@ body {
     gap: 12px;
 }
 
-.skills .right .item {
+#skills .right .item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,20 +206,20 @@ body {
     border-radius: 10px;
 }
 
-.skills .right .item i {
+#skills .right .item i {
     font-size: 36px;
     color: #444844;
 }
 
 
-  footer {
+footer {
     position: relative;
     background: #444844;
     padding: 80px 50px 40px;
     margin-top: 100px;
-  }
+}
 
-  footer .start {
+footer .start {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -231,74 +231,74 @@ body {
     /* make the start div above the footer div */
     top: -16px;
     left: 10%;
-  }
+}
 
-  footer .start p {
+footer .start p {
     font-size: 13px;
     width: 35%;
-  }
+}
 
-  footer .start button {
+footer .start button {
     background: transparent;
     border: 2px solid #444844;
     border-radius: 100px;
     transition: all 0.3s ease;
-  }
+}
 
-  footer .start button:hover {
+footer .start button:hover {
     border-color: #ceead0;
-  }
+}
 
-  footer .cols{
+footer .cols{
     display: flex;
     flex-direction: row;
     align-items: start;
     justify-content: space-around;
     margin-top: 30px;
-  }
+}
 
-  footer .cols .about-col {
+footer .cols .about-col {
     flex: auto;
-  }
+}
 
-  footer .cols .about-col h3 {
+footer .cols .about-col h3 {
     color: #abdbaf;
     margin-bottom: 20px;
-  }
+}
 
-  footer .cols .about-col p {
+footer .cols .about-col p {
     color: #ceead0;
     font-size: 13px;
-  }
+}
 
-  footer .cols .links-col {
+footer .cols .links-col {
     flex: auto;
-  }
+}
 
-  footer .cols .links-col h4, footer .cols .news-col h4 {
+footer .cols .links-col h4, footer .cols .news-col h4 {
     color: #ceead0;
     margin-bottom: 20px;
-  }
+}
 
-  footer .cols .links-col a {
+footer .cols .links-col a {
     display: block;
     text-decoration: none;
     color: #ceead0;
     font-size: 13px;
     line-height: 26px;
     transition: color 0.3s ease;
-  }
+}
 
-  footer .cols .links-col a:hover {
+footer .cols .links-col a:hover {
     color: #abdbaf;
-  }
+}
 
-  footer .cols .news-col {
+footer .cols .news-col {
     flex: auto;
     display: flex;
     flex-direction: column;
     gap: 5px;
-  }
+}
 
   
 

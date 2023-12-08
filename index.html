@@ -11,26 +11,26 @@
 
     <body>
         <button id="back-to-top-btn" onclick="topFunction()">Top</button>
-        <div class="navbar">
+        <nav>
             <h2>Minhua Liu</h2>
             <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="#">Skills</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
             <button class="hire-btn">Hire me</button>
-        </div>
+        </nav>
 
-        <div class="main">
+        <main>
             <h4>Hi, I am <span>Minhua</span> 👋</h4>
             <p class="title">A Creative Fontend Developer</p>
             <p class="subtitle">Designing the pretty little solutions with ❤️!</p>
             <!-- <img src="#" alt="logo-pic"> -->
-        </div>
+        </main>
 
-        <div class="about">
+        <div id="about">
             <!-- <img src="image.png" alt="self-image-png"> -->
             <div class="info">
                 <h3>About me</h3>
@@ -42,7 +42,7 @@
             </div>
         </div>
 
-        <div class="skills">
+        <div id="skills">
             <div class="left">
                 <div class="info">
                     <h3>My interests </h3>
@@ -89,8 +89,7 @@
                 </div>
                 <div class="item">
                     <i class='bx bxl-postgresql' ></i>
-                </div>
-                
+                </div>         
             </div>
         </div>
 
@@ -121,22 +120,15 @@
                     <a href="#">Linkedin</a>
                 </div>
 
-                <div class="news-col">
+                <div class="news-col" id="contact-form">
                     <h4>Contact me</h4>                    
                     <input type="email" placeholder="Your email address">
                     <textarea placeholder="Your message"></textarea>
                     <button id="send-contact-btn">Send message</button>
                 </div>
-
-                
-
             </div>
-
         </footer>
         
-
-        
-
         <!-- attach script -->
         <script src="./main.js"></script>
     </body>
