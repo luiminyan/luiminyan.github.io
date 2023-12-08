@@ -11,7 +11,7 @@
 
 body {
     height: 100vh;
-    background: #F0FFF0;
+    background: #ceead0;
 }
 
 /* style for the back to top btn */
@@ -23,15 +23,15 @@ body {
     z-index: 100;
     border: none;
     outline: none;
-    background-color: #B0FFB0;
-    color: #F0FFF0;
+    background-color: #abdbaf;
+    color: #ceead0;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
   }
   
   #back-to-top-btn:hover {
-    background-color: #70FF70;
+    background-color: #48ab51;
   }
 
 
@@ -46,7 +46,7 @@ body {
 }
 
 .navbar h2 {
-    color: #70FF70;
+    color: #48ab51;
     font-weight: 600;
 }
 
@@ -72,15 +72,15 @@ body {
 
 .navbar ul li:hover a {
     /* together with the transition above, when hover lands on the link, link font color is changed */
-    color: #70FF70;
+    color: #48ab51;
 }
 
 .navbar ul li:last-child a {
     margin: 0;
 }
 
-.hire-btn {
-    background-color: #B0FFB0;
+.hire-btn, #send-contact-btn {
+    background-color: #abdbaf;
     color: #444844;
     padding: 6px 30px;
     border: none;
@@ -91,9 +91,9 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.hire-btn:hover {
+.hire-btn:hover, #send-contact-btn:hover {
     /* change button color when hover transition is set */
-    color:#F0FFF0;
+    color:#ceead0;
 }
 
 .main {
@@ -111,7 +111,7 @@ body {
 }
 
 .main h4 span {
-    color: #70FF70;
+    color: #48ab51;
     text-decoration: underline;
 }
 
@@ -124,7 +124,7 @@ body {
 
 .main p.subtitle {
     font-size: 16px;
-    color: #70FF70;
+    color: #48ab51;
     margin-top: 20px;
 }
 
@@ -133,20 +133,12 @@ body {
     height: 200px;
 }
 
-.seprator {
-    margin: 50px 50px 30px;
-    padding: 10px 20px;
-    background-color: rgba(176, 255, 176, 0.8);
-    display: inline-block;
-    color: #444844;
-    border-radius: 12px;
-}
 .about {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 80px;
-    padding: 0 50px;
+    padding: 0 90px;
 }
 
 .about img{
@@ -172,7 +164,7 @@ body {
 .skills {
     display: flex;
     justify-content: space-around;
-    padding: 0 50px;
+    padding: 50px;
 }
 
 .skills .left {
@@ -208,7 +200,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #B0FFB0;
+    background-color: #abdbaf;
     width: 50px;
     height: 50px;
     border-radius: 10px;
@@ -232,7 +224,7 @@ body {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    background-color: #B0FFB0;
+    background-color: #abdbaf;
     padding: 30px 25px;
     border-radius: 15px;
     width: 70%;
@@ -254,7 +246,7 @@ body {
   }
 
   footer .start button:hover {
-    border-color: #F0FFF0;
+    border-color: #ceead0;
   }
 
   footer .cols{
@@ -270,12 +262,12 @@ body {
   }
 
   footer .cols .about-col h3 {
-    color: #B0FFB0;
+    color: #abdbaf;
     margin-bottom: 20px;
   }
 
   footer .cols .about-col p {
-    color: #F0FFF0;
+    color: #ceead0;
     font-size: 13px;
   }
 
@@ -284,29 +276,30 @@ body {
   }
 
   footer .cols .links-col h4, footer .cols .news-col h4 {
-    color: #F0FFF0;
+    color: #ceead0;
     margin-bottom: 20px;
   }
 
   footer .cols .links-col a {
     display: block;
     text-decoration: none;
-    color: #F0FFF0;
+    color: #ceead0;
     font-size: 13px;
     line-height: 26px;
     transition: color 0.3s ease;
   }
 
   footer .cols .links-col a:hover {
-    color: #B0FFB0;
+    color: #abdbaf;
   }
 
   footer .cols .news-col {
     flex: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
 
-  footer .cols .news-col form button i{
-    font-size: 26px;
-  }
+  
 
 
