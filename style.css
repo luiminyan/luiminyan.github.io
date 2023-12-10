@@ -160,8 +160,8 @@ main p.subtitle {
     margin-bottom: 10px;
 }
 
-#about.info p {
-    color: #ccc;
+#about .info p {
+    color: #444844;
     font-size: 14px;
 }
 
@@ -184,6 +184,11 @@ main p.subtitle {
     color: #444844;
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+#projects .left .info p {
+    color: #444844;
+    font-size: 14px;
 }
 
 #projects .left button {
