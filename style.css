@@ -79,7 +79,8 @@ nav ul li:last-child a {
     margin: 0;
 }
 
-.my-btn {
+/* unified btn style defined by me, can be used on pure btns or link btns */
+.my-btn{
     background-color: #abdbaf;
     color: #444844;
     padding: 6px 30px;
@@ -91,9 +92,15 @@ nav ul li:last-child a {
     transition: background-color 0.3s ease;
 }
 
-.my-btn:hover {
+.my-btn:hover, .my-btn:hover a{
     /* change button color when hover transition is set */
     color:#ceead0;
+}
+
+/* to be used on link btns */
+.my-btn a {
+    text-decoration: none;
+    color: #444844;
 }
 
 main {
@@ -128,10 +135,11 @@ main p.subtitle {
     margin-top: 20px;
 }
 
-main img {
+/* TODO:style for my logo */
+/* main img {
     width: 200px;
     height: 200px;
-}
+} */
 
 #about {
     display: flex;
@@ -141,9 +149,9 @@ main img {
     padding: 0 90px;
 }
 
-#about img{
+/* #about img{
     width: 280px;
-}
+} */
 
 #about .info h3{
     color: #444844;
@@ -161,26 +169,55 @@ main img {
     margin-top: 30px;
 }
 
+/* start of the project div */
 #projects {
     display: flex;
     justify-content: space-around;
     padding: 50px;
 }
 
-#projects .right {
+#projects .left {
     width: 680px;
 }
 
-#projects .right .info h3 {
+#projects .left .info h3 {
     color: #444844;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-#projects .right button {
+#projects .left button {
     margin-top: 30px;
 }
 
+#projects .right {
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+#projects .right .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #abdbaf;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#projects .right .item i {
+    font-size: 36px;
+    color: #444844;
+}
+/* end of the project div */
+
+
+/* start of the skills div */
 #skills {
     display: flex;
     justify-content: space-around;
@@ -230,7 +267,7 @@ main img {
     font-size: 36px;
     color: #444844;
 }
-
+/* end of th skills div */
 
 footer {
     position: relative;
