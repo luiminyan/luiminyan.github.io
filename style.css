@@ -270,9 +270,14 @@ main p.subtitle {
     border-radius: 10px;
 }
 
-#skills .right .item i {
+#skills .right .item i, p{
     font-size: 36px;
     color: #444844;
+}
+
+#skills .right .item p {
+    font-weight:lighter;
+    font-size: 30px;
 }
 /* end of th skills div */
 
