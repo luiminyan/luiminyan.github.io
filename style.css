@@ -169,33 +169,32 @@ main p.subtitle {
     margin-top: 30px;
 }
 
-/* start of the project div */
-#projects {
+.text-div {
     display: flex;
     justify-content: space-around;
     padding: 50px;
 }
 
-#projects .left {
+.text-div .left {
     width: 680px;
 }
 
-#projects .left .info h3 {
+.text-div .left .info h3 {
     color: #444844;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-#projects .left .info p {
+.text-div .left .info p {
     color: #444844;
     font-size: 16px;
 }
 
-#projects .left button {
+.text-div .left button {
     margin-top: 30px;
 }
 
-#projects .right {
+.text-div .right {
     width: 420px;
     height: 120px;
     display: flex;
@@ -205,7 +204,7 @@ main p.subtitle {
     gap: 12px;
 }
 
-#projects .right .item {
+.text-div .right .item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,69 +216,10 @@ main p.subtitle {
     border-color: transparent;
 }
 
-#projects .right .item i {
+.text-div .right .item i {
     font-size: 36px;
     color: #444844;
 }
-/* end of the project div */
-
-
-/* start of the skills div */
-#skills {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-}
-
-#skills .left {
-    width: 680px;
-}
-
-#skills .left .info h3 {
-    color: #444844;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-#skills .left .info p {
-    color: #444844;
-    font-size: 16px;
-}
-
-#skills .left button {
-    margin-top: 30px;
-}
-
-#skills .right {
-    width: 420px;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-#skills .right .item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #abdbaf;
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-}
-
-#skills .right .item i, p{
-    font-size: 36px;
-    color: #444844;
-}
-
-#skills .right .item p {
-    font-weight:lighter;
-    font-size: 30px;
-}
-/* end of th skills div */
 
 footer {
     position: relative;
