@@ -221,8 +221,8 @@ main p.subtitle {
     color: #444844;
 }
 
-#current-projects {
-    
+#current-projects .info{
+    width: 680px;
 }
 
 footer {
