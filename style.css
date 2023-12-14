@@ -169,32 +169,32 @@ main p.subtitle {
     margin-top: 30px;
 }
 
-.text-div {
+.text-icon-div {
     display: flex;
     justify-content: space-around;
     padding: 50px;
 }
 
-.text-div .left {
+.text-icon-div .left {
     width: 680px;
 }
 
-.text-div .left .info h3 {
+.text-icon-div .left .info h3 {
     color: #444844;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.text-div .left .info p {
+.text-icon-div .left .info p {
     color: #444844;
     font-size: 16px;
 }
 
-.text-div .left button {
+.text-icon-div .left button {
     margin-top: 30px;
 }
 
-.text-div .right {
+.text-icon-div .right {
     width: 420px;
     height: 120px;
     display: flex;
@@ -204,7 +204,7 @@ main p.subtitle {
     gap: 12px;
 }
 
-.text-div .right .item {
+.text-icon-div .right .item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,9 +216,13 @@ main p.subtitle {
     border-color: transparent;
 }
 
-.text-div .right .item i {
+.text-icon-div .right .item i {
     font-size: 36px;
     color: #444844;
+}
+
+#current-projects {
+    
 }
 
 footer {

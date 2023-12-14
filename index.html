@@ -21,38 +21,37 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="./files/CV-M.Liu-PDF.pdf">CV</a></li>
-                <li><a href="#contact-form">Contact</a></li>
             </ul>
-            <button class="my-btn">Hire me</button>
+            <button class="my-btn">
+                <a href="#contact-form">Contact me</a>
+            </button>
         </nav>
 
         <main>
             <h4>Hi, I am <span>Minhua</span> 👋</h4>
-            <p class="title">A Creative Frontend Developer</p>
+            <p class="title">Computer Science Student & Software Developer</p>
             <p class="subtitle">Designing the pretty little solutions with ❤️!</p>
             <!-- TODO: + my personal logo -->
             <!-- <img src="#" alt="logo-pic"> -->
         </main>
 
-        <div id="about">
+        <div id="about" class="text-pic-div"> 
             <!-- TODO: + my beutiful pic -->
             <!-- <img src="image.png" alt="self-image-png"> -->
             <div class="info">
                 <h3>About me</h3>
                 <p>
-                    Hey! My name is Minhua. I am a computer science student and also a frontend software and web engineer.
-                    Right now I am pursuing a bachelor's degree at the Ruhr-University Bochum. My interests and skills are not restricted in only frontend developing, but rather wide spread in a broad field of Computer Science and Mathematics. I am thrilled about theoretical computer science (especially on automata theory and complexity theory), graph theory and machine learning. 
+                    Hey! I'm Minhua, a computer science student and a software developer. I am now pursuing my bachelor's degree at Ruhr-University Bochum and the same time working on my skill of software (especially backend) developing.                
                 </p>
             </div>
         </div>
 
-        <div id="projects" class="text-div">
+        <div id="projects" class="text-icon-div">
             <div class="left">
                 <div class="info">
                     <h3>Countless projects</h3>
                     <p>
-                        I work on challenging programming projects in diversed areas, from data classification based machine models to cross-platforms mobile apps to fullstack applications. I am right now working on developing my skills in backend java developing (with Spring Boot framework). <br>
-                        My work can be viewed on my GitHub repositories.
+                        I work on challenging projects in diversed areas, from classification based machine learning model, cross-platforms mobile apps to fullstack web applications. My projects can be viewed on my GitHub repositories.
                     </p>
                 </div>
                 <button class="my-btn">
@@ -86,20 +85,7 @@
                         <i class='bx bxl-python' ></i>
                     </a>
                 </button>
-            </div>
-        </div>
 
-        <div id="skills" class="text-div">
-            <div class="left">
-                <div class="info">
-                    <h3>My interests </h3>
-                    <p> I develop intuitive responsive user-interfaces, which execute the "pretend it is magic" solution.</p>
-                </div>
-                <button class="my-btn">Contact me</button>
-            </div>
-          
-
-            <div class="right">
                 <!-- each icon is 36 px -->
                 <div class="item">
                     <i class='bx bxl-html5' ></i>
@@ -116,27 +102,29 @@
                 <div class="item">
                     <i class='bx bxl-vuejs' ></i>
                 </div>
-                <div class="item">
-                    <i class='bx bxl-nodejs' ></i>
-                </div>
+                
                 <div class="item">
                     <i class='bx bxl-java' ></i>
                 </div>
                 <div class="item">
-                    <i class='bx bxl-spring-boot' ></i>
-                </div>
-                <div class="item">
-                    <i class='bx bxl-flutter' ></i>
-                </div>
-                <div class="item">
-                    <i class='bx bxl-android' ></i>
-                </div>
-                <div class="item">
-                    <i class='bx bxl-python' ></i>
-                </div>
-                <div class="item">
                     <i class='bx bxl-postgresql' ></i>
                 </div>         
+            </div>
+        </div>
+
+        <div id="current-projects">
+            <!-- TODO: + my beutiful pic -->
+            <!-- <img src="image.png" alt="self-image-png"> -->
+            <div class="info">
+                <h3>Current projects</h3>
+                <div class="projects-info">
+                    <h4>Fullstack Information Management System with Spring Boot and Vue.js</h4>
+                    <p>A fullstack information management system. Backend implementation (PostgreSQL, Spring Boot & Java) is mostly finished, now I am working on the frontend part, which is planned to be built with Vue.js and JavaScript.</p>
+                </div>
+                <div class="projects-info">
+                    <h4>Campus App by AStA RUB</h4>
+                    <p>The Campus App at Ruhr-University Bochum. I am right now working on developing some new backend features, like multi-language support and in-building navigator.</p>
+                </div>
             </div>
         </div>
 
@@ -163,10 +151,10 @@
                 </div>
 
                 <div class="news-col" id="contact-form">
-                    <h4>Contact me</h4>                    
+                    <h4>Contact me (to be implemented)</h4>                    
                     <input type="email" placeholder="Your email address">
                     <textarea placeholder="Your message"></textarea>
-                    <button id="send-contact-btn" class="my-btn">Send message</button>
+                    <button id="send-contact-btn" class="my-btn" onclick="contactAlert()">Send message</button>
                 </div>
             </div>
         </footer>
