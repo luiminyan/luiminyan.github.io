@@ -1,118 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="copyright" content="Minhua Liu">
-        <meta name="robots" content="none">
-        <!-- use boxicons -->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="./style.css">
-        <title>Personal Portfolio | Minhua Liu</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="copyright" content="Minhua Liu" />
+    <meta name="robots" content="none" />
+    <!-- use boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Personal Portfolio | Minhua Liu</title>
+  </head>
 
-    <body>
-        <!-- onClick: topFunction() -->
-        <button id="back-to-top-btn" onclick="topFunction()">Top</button>
-        <nav>
-            <h2>Minhua Liu</h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="./files/CV-M.Liu-PDF.pdf">CV</a></li>
-            </ul>
-            <button class="my-btn">
-                <a href="mailto:luiminyan@gmail.com">Contact me</a>
-            </button>
-        </nav>
+  <body>
+    <!-- onClick: topFunction() -->
+    <button id="back-to-top-btn" onclick="topFunction()">Top</button>
+    <nav>
+      <h2>Minhua Liu</h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="./files/CV-M.Liu-PDF.pdf">CV</a></li>
+      </ul>
+      <button class="my-btn">
+        <a href="mailto:luiminyan@gmail.com">Contact me</a>
+      </button>
+    </nav>
 
-        <main>
-            <h4>Hi, I am <span>Minhua</span> 👋</h4>
-            <p class="title">Computer Science Student & Software Developer</p>
-            <p class="subtitle">Designing pretty little solutions with ❤️!</p>
-            <!-- TODO: + my personal logo -->
-            <!-- <img src="#" alt="logo-pic"> -->
-        </main>
+    <main>
+      <h4>Hi, I am <span>Minhua</span> 👋</h4>
+      <p class="title">Computer Science Student & Software Developer</p>
+      <p class="subtitle">Designing pretty little solutions with ❤️!</p>
+      <!-- TODO: + my personal logo -->
+      <!-- <img src="#" alt="logo-pic"> -->
+    </main>
 
-        <div id="about" class="text-pic-div"> 
-            <!-- TODO: + my beutiful pic -->
-            <!-- <img src="image.png" alt="self-image-png"> -->
-            <div class="info">
-                <h3>About me</h3>
-                <p>
-                    Hey! I am currently pursuing my bachelor's degree at Ruhr-University Bochum while simultaneously honing my skills in software development, especially in backend development        
-                </p>
-            </div>
+    <div id="about" class="text-pic-div">
+      <!-- TODO: + my beutiful pic -->
+      <!-- <img src="image.png" alt="self-image-png"> -->
+      <div class="info">
+        <h3>About me</h3>
+        <p>
+          Hey! I am currently pursuing my bachelor's degree at Ruhr-University
+          Bochum while simultaneously honing my skills in software development,
+          especially in backend development
+        </p>
+      </div>
+    </div>
+
+    <div id="projects" class="text-icon-div">
+      <div class="left">
+        <div class="info">
+          <h3>Countless projects</h3>
+          <p>
+            I enjoy working on challenging projects in diverse areas, ranging
+            from classification-based machine learning model, cross-platform
+            mobile apps to full-stack web applications. You can view my projects
+            on my GitHub repositories.
+          </p>
+        </div>
+        <button class="my-btn">
+          <a href="http://github.com/luiminyan">View my GitHub profile</a>
+        </button>
+      </div>
+
+      <div class="right">
+        <button class="item">
+          <a
+            href="https://github.com/luiminyan/Web_Eng_mini_projects/tree/main/mini%20projects"
+          >
+            <i class="bx bxl-nodejs"></i>
+          </a>
+        </button>
+        <button class="item">
+          <a href="https://github.com/luiminyan/Springboot_tutorial">
+            <i class="bx bxl-spring-boot"></i>
+          </a>
+        </button>
+        <button class="item">
+          <a href="https://github.com/luiminyan/FitMood">
+            <i class="bx bxl-android"></i>
+          </a>
+        </button>
+        <button class="item">
+          <a href="https://github.com/luiminyan/First_flutter_app">
+            <i class="bx bxl-flutter"></i>
+          </a>
+        </button>
+        <button class="item">
+          <a href="https://github.com/luiminyan/KNN-Classifier-CancerData">
+            <i class="bx bxl-python"></i>
+          </a>
+        </button>
+
+        <!-- each icon is 36 px -->
+        <div class="item">
+          <i class="bx bxl-html5"></i>
+        </div>
+        <div class="item">
+          <i class="bx bxl-css3"></i>
+        </div>
+        <div class="item">
+          <i class="bx bxl-javascript"></i>
+        </div>
+        <div class="item">
+          <i class="bx bxl-typescript"></i>
+        </div>
+        <div class="item">
+          <i class="bx bxl-vuejs"></i>
         </div>
 
-        <div id="projects" class="text-icon-div">
-            <div class="left">
-                <div class="info">
-                    <h3>Countless projects</h3>
-                    <p>
-                        I enjoy working on challenging projects in diverse areas, ranging from classification-based machine learning model, cross-platform mobile apps to full-stack web applications. You can view my projects on my GitHub repositories.
-                    </p>
-                </div>
-                <button class="my-btn">
-                    <a href="http://github.com/luiminyan">View my GitHub profile</a>            
-                </button>
-            </div>  
-
-            <div class="right">
-                <button class="item">
-                    <a href="https://github.com/luiminyan/Web_Eng_mini_projects/tree/main/mini%20projects">
-                        <i class='bx bxl-nodejs' ></i>
-                    </a>
-                </button> 
-                <button class="item">
-                    <a href="https://github.com/luiminyan/Springboot_tutorial">
-                        <i class='bx bxl-spring-boot' ></i>
-                    </a>                    
-                </button>
-                <button class="item">
-                    <a href="https://github.com/luiminyan/FitMood">
-                        <i class='bx bxl-android' ></i>
-                    </a>
-                </button>
-                <button class="item">
-                    <a href="https://github.com/luiminyan/First_flutter_app">
-                        <i class='bx bxl-flutter' ></i>
-                    </a>
-                </button>
-                <button class="item">
-                    <a href="https://github.com/luiminyan/KNN-Classifier-CancerData">
-                        <i class='bx bxl-python' ></i>
-                    </a>
-                </button>
-
-                <!-- each icon is 36 px -->
-                <div class="item">
-                    <i class='bx bxl-html5' ></i>
-                </div>
-                <div class="item">
-                    <i class='bx bxl-css3' ></i>
-                </div>
-                <div class="item">
-                    <i class='bx bxl-javascript' ></i>
-                </div>
-                <div class="item">
-                    <i class='bx bxl-typescript' ></i>
-                </div>
-                <div class="item">
-                    <i class='bx bxl-vuejs' ></i>
-                </div>
-                
-                <div class="item">
-                    <i class='bx bxl-java' ></i>
-                </div>
-                <div class="item">
-                    <i class='bx bxl-postgresql' ></i>
-                </div>         
-            </div>
+        <div class="item">
+          <i class="bx bxl-java"></i>
         </div>
+        <div class="item">
+          <i class="bx bxl-postgresql"></i>
+        </div>
+      </div>
+    </div>
 
-        <div id="current-projects" class="text-icon-div">
+    <!-- <div id="current-projects" class="text-icon-div">
             <div class="left">
                 <div class="info">
                     <h3>Current project: The RUB Campus App</h3>
@@ -125,38 +135,40 @@
             <div class="right">
                 
             </div>          
+        </div> -->
+
+    <footer>
+      <div class="cols">
+        <div class="about-col">
+          <h3>Minhua Liu <i class="bx bx-copyright">2023</i></h3>
         </div>
 
-        <footer>
-            <div class="cols">
-                <div class="about-col">
-                    <h3>Minhua Liu <i class='bx bx-copyright'>2023</i></h3>
-                </div>
+        <div class="links-col">
+          <h4>Useful links</h4>
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="./files/CV-M.Liu-PDF.pdf">CV</a>
+        </div>
 
-                <div class="links-col">
-                    <h4>Useful links</h4>
-                    <a href="#">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="./files/CV-M.Liu-PDF.pdf">CV</a>
-                </div>
+        <div class="links-col">
+          <h4>Social Media</h4>
+          <a href="https://github.com/luiminyan">GitHub</a>
+          <a href="https://www.linkedin.com/in/minhua-liu-423804299/"
+            >Linkedin</a
+          >
+        </div>
 
-                <div class="links-col">
-                    <h4>Social Media</h4>
-                    <a href="https://github.com/luiminyan">GitHub</a>
-                    <a href="https://www.linkedin.com/in/minhua-liu-423804299/">Linkedin</a>
-                </div>
-
-                <!-- <div class="news-col" id="contact-form">
+        <!-- <div class="news-col" id="contact-form">
                     <h4>Contact me (to be implemented)</h4>                    
                     <input type="email" placeholder="Your email address">
                     <textarea placeholder="Your message"></textarea>
                     <button id="send-contact-btn" class="my-btn" onclick="contactAlert()">Send message</button>
                 </div> -->
-            </div>
-        </footer>
-        
-        <!-- attach script -->
-        <script src="./main.js"></script>
-    </body>
+      </div>
+    </footer>
+
+    <!-- attach script -->
+    <script src="./main.js"></script>
+  </body>
 </html>
